@@ -1,0 +1,12 @@
+POST http://localhost:3001/api/diary
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImVtYnVoIiwiaWQiOiI2NTE1MTIzODA1YzAyZWZmOGMxM2EzYzUiLCJpYXQiOjE2OTU4Nzk3NDB9.Axbwg97Ch43Le__8jU30CReZ2H0qvmqNX0n9cil9s2k
+
+{
+    "title":"title 3",
+    "content": "isi 3"
+}
+
+###
+GET http://localhost:3001/api/diary
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImVtYnVoIiwiaWQiOiI2NTE1MTIzODA1YzAyZWZmOGMxM2EzYzUiLCJpYXQiOjE2OTU4Nzk3NDB9.Axbwg97Ch43Le__8jU30CReZ2H0qvmqNX0n9cil9s2k
